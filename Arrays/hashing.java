@@ -5,9 +5,9 @@ import java.util.HashSet;
 //  for eg if you have huge list of the elements and you want to check the presence,insert or delte effeiceentyl,instead of the scanning the whole list hashing gives you a shortcut to directly access where element should be 
 
 
-public class hashing{
+public class hashing {
     public static void main(String[] args) {
-        
+
         HashSet<Integer> set = new HashSet<>();
         set.add(1);
         set.add(2);
@@ -17,8 +17,6 @@ public class hashing{
 
         System.out.println(set);// {1,2,3,4}
         System.out.println(set.contains(2));//{true}
-
-
 
         // To push this code to GitHub, follow these steps:
         // 1. Initialize a git repository in your project folder:
@@ -32,4 +30,5 @@ public class hashing{
         //      git remote add origin https://github.com/your-username/your-repo-name.git
         // 6. Push your code:
         //      git push -u origin master }
+    }
 }
