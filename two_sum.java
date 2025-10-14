@@ -1,5 +1,7 @@
 public class two_sum {
 
+
+
     public static void two_sum(int arr[], int target) {
         int n = arr.length;
         int i, j;
